@@ -1,4 +1,4 @@
-
+function checkAnswer(){
   const selected = document.getElementById("answer").value;
   const result = document.getElementById("result");
   
@@ -14,3 +14,4 @@
     result.innerHTML= "❌ thats not a citrus fruit";
     document.body.style.backgroundColor="red";
   }
+}

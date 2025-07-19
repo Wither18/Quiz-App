@@ -6,7 +6,7 @@
     result.innerHTML = "✅ correct!! Orange is a citrus fruit";
     document.body.style.backgroundColor="lightgreen";
   }
-  else if (selected ==="") {
+  else if (selected ==="select") {
     result.innerHTML="⚠ please select an option️";
     document.body.style.backgroundColor= "white";
   }
